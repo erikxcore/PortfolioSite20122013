@@ -1,0 +1,908 @@
+/*
+Mediaquery CSS
+Thanks to http://css-tricks.com/snippets/css/media-queries-for-standard-devices/ for this guideline
+/*
+
+
+
+/* Resize Fix ----------- */
+
+@media only screen
+and (max-width : 1200px)
+and (min-width : 961px)
+{
+nav ul li a, nav ul li a:visited{
+	padding:0em !important;
+	font-size:1.50em!important;	
+	margin-right:0.525em!important;
+}
+}
+
+/* Nexus 7 ----------- */
+@media only screen
+and (max-width : 970px)
+and (min-width : 480px)
+{
+.port_grid{
+	width:50%;
+}
+/* Styles */
+#toTop{
+	display:none !important;	
+}
+h2{
+	font-size:1.500em !important;	
+}
+
+/*Header*/
+header{
+	height:3.688em !important;
+}
+.headerleft{
+	overflow:visible !important;
+	width:35% !important;
+	float:left !important;
+}
+.headerleft #eric img{
+	width:50% !important;
+	margin-left:0em !important;	
+}
+.headerleft #barber img{
+	width:50% !important;
+	margin-left:0em !important;
+}
+nav{
+	width:65% !important;
+	float:right !important;
+}
+nav ul{
+	float:right !important;
+}
+#eric,#barber{
+	float:none;
+}
+nav ul li a, nav ul li a:visited{
+	padding:0em !important;
+	font-size:1.25em!important;	
+	margin-right:0.325em!important;
+}
+#fullwrapper{
+	margin-top:3.688em !important;
+}
+/*Home Panel*/
+#homecontent{
+	padding:4.000em 0em 4.000em 0em !important;
+	min-width:480px !important;	
+	max-width:960px !important;	
+}
+#homecontent h1{
+	margin-left:0em !important;
+}
+#homecontent p{
+	margin:0 auto !important;
+	width:90% !important;
+	display:block !important;
+	float:none !important;
+}
+/*About Panel*/
+#aboutcontent{
+	padding:4.000em 0em 4.000em 0em !important;
+	min-width:480px !important;
+	max-width:960px !important;
+}
+#aboutcontent p{
+	color:#000000 !important;
+}
+.graph-container{
+	display:none !important;
+}
+#chart{
+	display:block !important;
+}
+.extra li{
+	font-size:0.525em!important;	
+}
+.resume{
+	font-size:1.000em!important;	
+}
+#aboutright{
+	margin:0% !important;
+}
+#aboutleft figure img{
+	display:none !important;
+}
+#aboutleft{
+max-width:100%;
+float:left;
+margin:2%;	
+}
+#bio,#skills{
+width:100%;
+float:left;
+}
+#chart{
+text-align:center;
+}
+#aboutright{
+margin:0 auto;
+float:none;
+max-width:100%;
+}
+.music, .adobe, .oop, .photo, .cms{
+height:2.5em;
+	
+}
+/*Work Panel*/
+#workcontent{
+	padding:4.000em 0em 4.000em 0em !important;
+	min-width:480px !important;
+	max-width:960px  !important;
+}
+#portfoliorain{
+	display:none !important;
+}
+#portfoliogrid{
+	display:block !important;
+	overflow:auto !important;
+}
+
+.lightbox{
+	font-size:1.200em!important;	
+}
+#workbottomrain{
+	display:none !important;
+}
+#workbottomgrid{
+display:none !important;	
+}
+/*Contact Panel*/
+#contactcontent{
+	padding:4.000em 0em 4.000em 0em !important;
+	min-width:480px !important;
+	max-width:960px !important;
+}
+#contactleft{
+	width:100% !important;
+	margin:0% !important;
+	float:none !important;
+	max-width:100% !important;
+}
+#contactform{
+	width:100% !important;
+	margin:0% !important;
+}
+#contactright{
+	width:95% !important;
+	margin:0 auto !important;
+	float:none !important;
+	max-width:95% !important;
+	float:none !important;
+}
+#contactcontent p{
+	width:97%;
+	margin:0 auto;	
+}
+textarea{
+	min-width:100% !important;
+}
+input{
+	width:100%;
+	float:none;
+}
+label{
+	float:none;	
+}
+input[type=submit]{
+}
+#social{
+	background-image:none !important;
+	margin:0 auto !important;
+	height:3.000em !important;
+	width:auto !important;
+	float:left;
+}
+.socialcontain{
+	display:block !important;
+	width:40% !important;
+	height:100% !important;
+	margin:0 auto !important;
+	margin-top: 30px !important;
+}
+.linkedin{
+	height:2.438em !important;
+	width:2.438em !important;
+	margin:0.313em !important;
+	background:url('../img/linkedin_phone.png') !important;
+}
+.linkedin:hover{
+	background:url('../img/linkedin_phone_hover.png') !important;
+}
+.facebook{
+	height:2.438em !important;
+	width:2.438em !important;
+	margin:0.313em !important;
+	background:url('../img/facebook_phone.png') !important;	
+}
+.facebook:hover{
+	background:url('../img/facebook_phone_hover.png') !important;
+}
+.twitter{
+	height:2.438em !important;
+	width:2.438em !important;
+	margin:0.313em !important;
+	background:url('../img/twitter_phone.png') !important;	
+}
+.twitter:hover{
+	background:url('../img/twitter_phone_hover.png') !important;
+}
+.tumblr{
+	height:2.438em !important;
+	width:2.438em !important;
+	margin:0.313em !important;
+	background:url('../img/tumblr_phone.png') !important;	
+}
+.tumblr:hover{
+	background:url('../img/tumblr_phone_hover.png') !important;
+}
+/*Footer*/
+.footerleft{
+	width:100% !important;
+}
+.footertext{
+	display:block !important;
+	font-size:1em!important;
+	float:none !important;
+	margin: 1em auto 0 auto !important;
+	width:80% !important;
+}
+.footerleft img{
+	display:none !important;
+}
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+html,body{
+overflow:hidden;	
+}
+/* Styles */
+#toTop{
+	display:none !important;	
+}
+h2{
+	font-size:1.500em!important;	
+}
+footer{
+position:relative !important;
+}
+#aboutleft{
+max-width:100%;
+float:left;
+margin:2%;	
+}
+#bio,#skills{
+width:100%;
+float:left;
+}
+#chart{
+text-align:center;
+}
+#aboutright{
+margin:0 auto;
+float:none;
+max-width:100%;
+}
+.music, .adobe, .oop, .photo, .cms{
+height:2.5em;
+	
+}
+/*Header*/
+header{
+	height:3.688em;
+}
+.headerleft{
+	overflow:visible;
+	width:30%;
+	float:left;
+}
+.port_grid{
+width:100%;	
+}
+.headerleft img{
+	width:100% !important;
+	margin-left:0em;	
+}
+nav{
+	width:70%;
+	float:right;
+}
+nav ul{
+	margin-right:0.05em;
+	float:right;
+}
+nav ul li a, nav ul li a:visited{
+	padding:0.425em;
+	font-size:0.750em!important;	
+}
+#fullwrapper{
+	margin-top:3.688em;	
+}
+/*Home Panel*/
+#homecontent{
+	padding:4.000em 0em 4.000em 0em;
+	min-width:320px;
+	max-width:480px;	
+}
+#homecontent h1{
+	margin-left:0em;	
+}
+#homecontent p{
+	margin:0 auto;
+	width:90%;
+	display:block;
+	float:none;	
+}
+/*About Panel*/
+#aboutcontent{
+	padding:4.000em 0em 4.000em 0em;
+	min-width:320px;
+	max-width:480px;
+}
+#aboutcontent p{
+	color:#000000;	
+}
+.graph-container{
+	display:none;
+}
+#chart{
+	display:block;	
+}
+.extra li{
+	font-size:0.755em!important;	
+}
+.resume{
+	font-size:1.000em!important;	
+}
+#aboutright{
+	margin:0%;	
+}
+#aboutleft figure img{
+	display:none;
+}
+/*Work Panel*/
+#workcontent{
+	padding:4.000em 0em 4.000em 0em;
+	min-width:320px;
+	max-width:480px;
+}
+#portfoliorain{
+	display:none;	
+}
+#portfoliogrid{
+	display:block;
+	overflow:auto;
+}
+.port_grid{
+	width:100%;
+}
+.lightbox{
+	font-size:1.200em!important;	
+}
+#workbottomrain{
+	display:none!important;	
+}
+#workbottomgrid{
+display:none !important;	
+}
+/*Contact Panel*/
+#contactcontent{
+	padding:4.000em 0em 4.000em 0em;
+	min-width:320px;
+	max-width:480px;
+	overflow:hidden;
+}
+#contactleft{
+	width:100%;
+	margin:0%;
+	float:left;
+	max-width:100%;
+}
+#contactform{
+	width:100%;
+	margin:0%;
+}
+#contactright{
+	width:100%;
+	margin:0 auto;
+	float:none;
+	max-width:100%;
+	float:left;
+	margin:0%;
+}
+textarea,input{
+	min-width:90%;
+}
+
+input[type=submit]{
+}
+#social{
+	background-image:none;
+	margin:0 auto;
+	height:3.000em;
+	width:100%;
+}
+.socialcontain{
+	display:block;
+	text-align:center;
+}
+.linkedin{
+	width: 39px;
+	height: 39px;
+	margin:5.5%;
+	background:url('../img/phonesprite.png');
+	background-position: 0 -88px; 
+}
+.linkedin:hover{
+	background-position: 0 -132px;
+}
+.facebook{
+	width: 39px;
+	height: 39px;
+	margin:5.5%;
+	background:url('../img/phonesprite.png');
+	background-position: 0 0;
+}
+.facebook:hover{
+	background-position: 0 -44px;
+}
+.twitter{
+	width: 39px;
+	height: 39px;
+	margin:5.5%;
+	background:url('../img/phonesprite.png');
+	background-position: 0 -264px;
+}
+.twitter:hover{
+	background-position: 0 -308px;
+}
+.tumblr{
+	width: 39px;
+	height: 39px;
+	margin:5.5%;
+	background:url('../img/phonesprite.png');
+	background-position: 0 -176px;
+}
+.tumblr:hover{
+	background-position: 0 -220px;
+}
+/*Footer*/
+.footerleft{
+	width:100%;	
+}
+.footertext{
+	display:block;
+	font-size:0.65em!important;
+	float:none;
+	margin: 1em auto 0 auto;
+	width:80%;
+}
+.footerleft img{
+	display:none;
+}
+#contactcontent{
+min-width:320px;
+padding:5px;
+}
+footer{
+position:relative !important;
+}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px)
+and (max-width : 480px) {
+/* Styles */
+#contactcontent{
+min-width:321px;
+padding:5px;
+}
+footer{
+position:relative !important;
+}
+#portfoliogrid figure img{
+	display:block;
+	margin:0 auto;
+}
+footer{
+position:relative;
+}
+.linkedin{
+	width: 39px;
+	height: 39px;
+	margin:5.5%;
+	background:url('../img/phonesprite.png');
+	background-position: 0 -88px; 
+}
+.linkedin:hover{
+	background-position: 0 -132px;
+}
+.facebook{
+	width: 39px;
+	height: 39px;
+	margin:5.5%;
+	background:url('../img/phonesprite.png');
+	background-position: 0 0;
+}
+.facebook:hover{
+	background-position: 0 -44px;
+}
+.twitter{
+	width: 39px;
+	height: 39px;
+	margin:5.5%;
+	background:url('../img/phonesprite.png');
+	background-position: 0 -264px;
+}
+.twitter:hover{
+	background-position: 0 -308px;
+}
+.port_grid{
+width:100%;	
+}
+.tumblr{
+	width: 39px;
+	height: 39px;
+	margin:5.5%;
+	background:url('../img/phonesprite.png');
+	background-position: 0 -176px;
+}
+.tumblr:hover{
+	background-position: 0 -220px;
+}
+.headerleft{
+	width:50% !important;
+}
+nav{
+	width:50% !important;	
+}
+.headerleft img{
+	width:45% !important;
+	margin-left:0em;
+	display:block;
+	float:left;
+}
+#eric,#barber{
+	float:none;
+}
+#contactright{
+	width:100% !important;
+	max-width:100% !important;
+	margin:0%;
+}
+textarea,input{
+	width:95% !important;
+	min-width:95% !important;
+}
+#workbottomrain{
+	display:none !important;
+}
+#workbottomgrid{
+display:none !important;	
+}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+#toTop{
+	display:none !important;	
+}
+h2{
+	font-size:1.500em!important;	
+}
+/*Header*/
+header{
+	height:3.688em;
+}
+.headerleft{
+	overflow:visible;
+	width:30%;
+	float:left;
+}
+.headerleft img{
+	width:100%;
+	margin-left:0em;	
+}
+nav{
+	width:70%;
+	float:right;
+}
+nav ul{
+	margin-right:0.05em;
+	float:right;
+}
+nav ul li a, nav ul li a:visited{
+	padding:0.425em;
+	font-size:0.750em!important;	
+}
+#fullwrapper{
+	margin-top:3.688em;	
+}
+/*Home Panel*/
+#homecontent{
+	padding:4.000em 0em 4.000em 0em;
+	min-width:768px;
+	max-width:960px;	
+}
+#homecontent h1{
+	margin-left:0em;	
+}
+#homecontent p{
+	margin:0 auto;
+	width:90%;
+	display:block;
+	float:none;	
+}
+/*About Panel*/
+#aboutcontent{
+	padding:4.000em 0em 4.000em 0em;
+	min-width:768px;
+	max-width:960px;
+}
+#aboutcontent p{
+	color:#000000;	
+}
+.graph-container{
+	display:none;
+}
+#chart{
+	display:block;	
+}
+.extra li{
+	font-size:0.525em!important;	
+}
+.resume{
+	font-size:1.000em!important;	
+}
+#aboutright{
+	margin:0%;	
+}
+#aboutleft figure img{
+	display:none;
+}
+/*Work Panel*/
+#workcontent{
+	padding:4.000em 0em 4.000em 0em;
+	min-width:768px;
+	max-width:960px;
+}
+#portfoliorain{
+	display:none;	
+}
+#portfoliogrid{
+	display:block;
+	overflow:auto;
+}
+
+.lightbox{
+	font-size:1.200em!important;	
+}
+#workbottomrain{
+	display:none;	
+}
+#workbottomgrid{
+display:none !important;	
+}
+/*Contact Panel*/
+#contactcontent{
+	padding:4.000em 0em 4.000em 0em;
+	min-width:768px;
+	max-width:960px;
+}
+#contactleft{
+	width:100%;
+	margin:0%;
+	float:none;
+	max-width:100%;
+}
+#contactform{
+	width:100%;
+	margin:0%;
+}
+#contactright{
+	width:95%;
+	margin:0 auto;
+	float:none;
+	max-width:95%;
+	float:none;
+}
+textarea{
+	min-width:95%;
+}
+input[type=submit]{
+}
+#social{
+	background-image:none;
+	margin:0 auto;
+	height:3.000em;
+	width:auto;
+}
+.socialcontain{
+	display:block;
+	text-align:center;
+	margin-top: 30px !important;
+}
+.linkedin{
+	width: 39px;
+	height: 39px;
+	margin:5.5%;
+	background:url('../img/phonesprite.png');
+	background-position: 0 -88px; 
+}
+.linkedin:hover{
+	background-position: 0 -132px;
+}
+.facebook{
+	width: 39px;
+	height: 39px;
+	margin:5.5%;
+	background:url('../img/phonesprite.png');
+	background-position: 0 0;
+}
+.facebook:hover{
+	background-position: 0 -44px;
+}
+.twitter{
+	width: 39px;
+	height: 39px;
+	margin:5.5%;
+	background:url('../img/phonesprite.png');
+	background-position: 0 -264px;
+}
+.twitter:hover{
+	background-position: 0 -308px;
+}
+.tumblr{
+	width: 39px;
+	height: 39px;
+	margin:5.5%;
+	background:url('../img/phonesprite.png');
+	background-position: 0 -176px;
+}
+.tumblr:hover{
+	background-position: 0 -220px;
+}
+/*Footer*/
+.footerleft{
+	width:100%;	
+}
+.footertext{
+	display:block;
+	font-size:0.65em!important;
+	float:none;
+	margin: 1em auto 0 auto;
+	width:80%;
+}
+.footerleft img{
+	display:none;
+}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+#portfoliogrid figure{
+	border:0em;
+}
+#portfoliogrid figure img{
+	display:block;
+	margin:0 auto;
+}
+.linkedin{
+	width: 39px;
+	height: 39px;
+	margin:5.5%;
+	background:url('../img/phonesprite.png');
+	background-position: 0 -88px; 
+}
+.linkedin:hover{
+	background-position: 0 -132px;
+}
+.facebook{
+	width: 39px;
+	height: 39px;
+	margin:5.5%;
+	background:url('../img/phonesprite.png');
+	background-position: 0 0;
+}
+.facebook:hover{
+	background-position: 0 -44px;
+}
+.twitter{
+	width: 39px;
+	height: 39px;
+	margin:5.5%;
+	background:url('../img/phonesprite.png');
+	background-position: 0 -264px;
+}
+.twitter:hover{
+	background-position: 0 -308px;
+}
+.tumblr{
+	width: 39px;
+	height: 39px;
+	margin:5.5%;
+	background:url('../img/phonesprite.png');
+	background-position: 0 -176px;
+}
+.tumblr:hover{
+	background-position: 0 -220px;
+}
+.headerleft{
+	width:50% !important;
+}
+nav{
+	width:50% !important;	
+}
+.headerleft img{
+	width:45% !important;
+	margin-left:0em !important;
+	display:block !important;
+}
+#eric{
+	float:left!important;
+}
+#barber{
+	float:left!important;	
+}
+#contactright{
+	width:95% !important;
+	max-width:100% !important;
+}
+textarea{
+	min-width:95% !important;
+}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}

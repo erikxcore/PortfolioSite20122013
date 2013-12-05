@@ -1,0 +1,134 @@
+*{
+	/* A universal CSS reset */
+	margin:0;
+	padding:0;
+}
+
+
+#sideNav li{
+	list-style:none;
+	height:39px;
+	padding:2px;
+	width:38px;
+}
+
+#sideNav span{
+	width:0;
+	left:40px;
+	padding:0;
+	position:absolute;
+	overflow:hidden;
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:0.6px;
+	white-space:nowrap;
+	line-height:39px;
+	-webkit-transition: 0.25s;
+}
+
+#sideNav a{
+	background:url('images/navigation.jpg') no-repeat;
+	height:39px;
+	width:38px;
+	display:block;
+	position:relative;
+	-moz-box-shadow:0 0 5px #9ddff5;
+	-webkit-box-shadow:0 0 5px #9ddff5;
+	box-shadow:0 0 5px #9ddff5;
+}
+
+#sideNav a:hover span{ width:auto; padding:0 20px;overflow:visible; }
+#sideNav a:hover{
+	text-decoration:none;
+	-moz-box-shadow:0 0 5px #9ddff5;
+	-webkit-box-shadow:0 0 5px #9ddff5;
+	box-shadow:0 0 5px #9ddff5;
+}
+
+/* Home */
+
+#sideNav .home {	background-position:0 0;}
+#sideNav .home:hover {	background-position:0 -39px;}
+#sideNav .home span{
+	background-color:#b0e0e6;
+	color:#4682b4;
+	text-shadow:1px 1px 0 #99bf31;
+}
+
+/* About */
+
+#sideNav .about { background-position:-38px 0;}
+#sideNav .about:hover { background-position:-38px -39px;}
+#sideNav .about span{
+	background-color:#1e8bb4;
+	color:#223a44;
+	text-shadow:1px 1px 0 #44a8d0;
+}
+
+/* Work */
+
+#sideNav .work { background-position:-76px 0;}
+#sideNav .work:hover { background-position:-76px -39px;}
+#sideNav .work span{
+	background-color:#c86c1f;
+	color:#5a3517;
+	text-shadow:1px 1px 0 #d28344;
+}
+
+/* Contact */
+
+#sideNav .contact { background-position:-114px 0;}
+#sideNav .contact:hover{ background-position:-114px -39px;}
+#sideNav .contact span{
+	background-color:#d0a525;
+	color:#604e18;
+	text-shadow:1px 1px 0 #d8b54b;
+}
+
+/* The styles below are only needed for the demo page */
+
+#main{
+	margin:80px auto;
+	position:relative;
+	width:40px;
+}
+
+
+h1{
+	color:#fff;
+	font-size:30px;
+	font-weight:normal;
+	padding:60px 0 20px;
+	text-align:center;
+}
+
+h2{
+	font-weight:normal;
+	text-align:center;
+}
+
+h1,h2{
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+}
+
+a, a:visited,a:active {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a img{
+	border:none;
+}
+
+p.note{
+	color:#707070;
+	font-size:10px;
+	text-align:center;
+	margin:50px;
+}

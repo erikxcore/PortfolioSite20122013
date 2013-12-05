@@ -1,0 +1,514 @@
+/* Eric Barber May 15, 2011 All Rights Reserved */
+
+header,footer,
+article,section
+{
+display:block;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.centerFooter{
+  width:980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{	
+font-family:RalewayThin, Arial, Helvetica, sans-serif;
+font-size:14px;
+color:black;
+background-image: url("Images/bg.png");
+background-repeat: repeat;
+}
+
+p.pAbout{
+font-family:RalewayThin, Arial, Helvetica, sans-serif;
+font-size:18px;
+line-height:25px;
+text-shadow: 3px 3px 3px #002552;
+text-indent:45px;
+padding-top:20px;
+}
+
+span.pAboutBig{
+font-size:30px;
+}
+
+span.pAboutGlow{
+font-family:TeXGyreScholaRegular, "Times New Roman", serif;
+color: coral;
+font-size:20px;
+text-shadow: 1px 1px 2px #d6852f;
+filter: dropshadow(color=#d6852f, offx=1, offy=1);
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea{
+  margin-left: auto;
+  margin-right: auto;
+  width:300px;
+  height:100px;	
+}
+
+.centerText{
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+}
+
+.right {
+  float: right;
+}
+.left {
+   float: left;
+}
+
+
+span.Work{
+font-family:TeXGyreScholaBold, "Times New Roman", serif;
+font-size: 55px;
+color: coral;
+text-shadow: 0px 1px 0px #000;
+}
+
+span.Work:hover{
+text-shadow: 5px 5px 10px #2f7bbd;
+filter: dropshadow(color=#2f7bbd, offx=5, offy=5);	
+-webkit-transition: all 2s ;
+-moz-transition: all 2s ;
+transition: all 2s ;	
+}
+
+span.Resume{
+font-family:TeXGyreScholaBold, "Times New Roman", serf;
+font-style:bold;
+color: coral;
+font-size:30px;
+text-shadow: 1px 1px 2px #d6852f;
+
+}
+
+span.pAboutGlow:hover{
+text-shadow: 5px 5px 10px #2f7bbd;
+filter: dropshadow(color=#2f7bbd, offx=5, offy=5);	
+}
+
+span.pContact1{
+font-family:TeXGyreScholaRegular, "Times New Roman", serif;
+font-size:20px;
+}
+
+span.pContactBold:Hover{
+text-shadow: 5px 5px 10px #2f7bbd;
+filter: dropshadow(color=#2f7bbd, offx=5, offy=5);	
+-webkit-transition: all 2s ;
+-moz-transition: all 2s ;
+transition: all 2s ; 
+}
+
+span.pContact2{
+font-family:TeXGyreScholaBold, "Times New Roman", serif;
+padding: 0px;
+font-size:30px;
+color:#37B6CE;
+text-shadow: 0px -1px 0px #000000; 
+}
+
+span.pContact2:Hover{
+-webkit-transition: all 2s ;
+-moz-transition: all 2s ;
+transition: all 2s ;
+color: #04859D;
+text-shadow: 0px 1px 0px #000;	
+}
+
+
+
+span.pWork{
+font-family:TeXGyreScholaBold, "Times New Roman", serif;
+font-size: 30px;
+color: #222;
+text-shadow: 0px 2px 3px #555;
+}
+
+span.pContactBold{
+font-family:TeXGyreScholaBold, "Times New Roman", serif;
+font-style:Bold;
+color: coral;
+padding: 0px;
+font-size:20px;
+text-shadow: 1px 1px 2px #d6852f;
+filter: dropshadow(color=#d6852f, offx=1, offy=1);
+}
+
+
+span.divide{
+font-family:TeXGyreScholaBold, "Times New Roman", serif;
+font-style:Bold;
+color: coral;
+font-size:30px;
+text-shadow: 1px 1px 2px #d6852f;
+filter: dropshadow(color=#d6852f, offx=1, offy=1);
+top:5px;
+ 
+}
+
+span.divide:Hover{
+font-family:TeXGyreScholaBold, "Times New Roman", serif;
+font-style: italic,bold;
+font-size: 31px;
+color: mediumaquamarine;
+text-shadow: 0px 1px 0px #000;
+}
+
+a.resume{
+font-family:TeXGyreScholaBold, "Times New Roman", serif;
+text-decoration:none;
+font-style: bold;
+color: coral;
+font-size:30px;
+text-shadow: 1px 1px 2px #d6852f;
+filter: dropshadow(color=#d6852f, offx=1, offy=1);
+}
+
+img
+{max-width:100%;}
+
+a.resume:hover{
+text-shadow: 5px 5px 10px #2f7bbd;
+filter: dropshadow(color=#2f7bbd, offx=5, offy=5);	
+}
+
+a.resume:active{
+-moz-transform: scale(0.8) rotate(15deg) translate(px, 0px) skew(0deg, 0deg);
+-webkit-transform: scale(0.8) rotate(15deg) translate(px, 0px) skew(0deg, 0deg);
+-o-transform: scale(0.8) rotate(15deg) translate(px, 0px) skew(0deg, 0deg);
+-ms-transform: scale(0.8) rotate(15deg) translate(px, 0px) skew(0deg, 0deg);
+transform: scale(0.8) rotate(15deg) translate(px, 0px) skew(0deg, 0deg);
+}
+
+#page{
+position:block;
+width:780px;
+margin-left: auto;
+margin-right: auto;
+}
+
+article{
+padding-top:180px;
+}
+
+ul.ulSpec {
+list-style-type:none;
+}
+
+li.liSpec {
+display:inline;
+}
+
+p.pHome{
+font-family:TeXGyreScholaRegular, "Times New Roman", serif;
+font-size: 25px;
+text-indent:25px;
+color: black;
+width:75%;
+margin-left: auto;
+margin-right: auto;
+text-align:left;
+}
+
+img.Hi{
+-moz-left:34%;
+-webkit-margin-left:20%;
+margin-left:20%;
+margin-right: auto;
+overflow:hidden;
+}
+
+
+span.pSpecial{
+font-family:TeXGyreScholaBold, "Times New Roman", serif;
+font-size: 31px;
+color: #37B6CE;
+text-shadow: 0px 1px 0px #000;
+ 
+}
+
+span.pSpecial:hover{
+-webkit-transition: all 2s ;
+-moz-transition: all 2s ;
+transition: all 2s ;
+text-shadow: 5px 5px 5px #18a8a8;
+filter: dropshadow(color=#18a8a8, offx=5, offy=5); 
+ 
+
+}
+
+.navbar{
+margin-left:175px;
+padding-top:80px;
+}
+
+span.pSpecial2{
+font-family:TeXGyreScholaBold, "Times New Roman", serif;
+font-style:bold;
+font-size: 31px;
+color: mediumaquamarine;
+text-shadow: 0px 1px 0px #000;
+}
+
+span.pSpecial2:hover{
+-webkit-transition: all 2s ;
+-moz-transition: all 2s ;
+transition: all 2s ;
+color: #04859D;
+text-shadow: 0px 1px 0px #000;	
+}
+
+
+form { 
+font-family:RalewayThin, Arial, Helvetica, sans-serif;
+display:block;
+width: 300px;	
+margin-right:auto;
+margin-left:auto;
+
+}
+
+#user-message { 
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px; 
+border-radius: 10px;
+width: 300px;
+}
+ 
+area {		
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px; 
+border-radius: 10px;
+width: 345px; 
+height: 100px; 		 		
+}
+
+#user-details { 
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px; 
+border-radius: 10px;
+font-family:RalewayThin, Arial, Helvetica, sans-serif;
+width: 200px; 
+}
+
+label {	
+font-family:RalewayThin, Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: black; 
+vertical-align:top;
+display: block;
+}
+
+label.email{
+font-family:RalewayThin, Arial, Helvetica, sans-serif;
+font-size: 12px;
+border-radius: 36px;
+-moz-border-radius: 36px;
+-webkit-border-radius: 36px;
+color: black;
+padding:1%;
+}
+
+ 
+fieldset {
+border: none; 
+}
+
+input.submit:hover { 		
+    -webkit-box-shadow: 0px 0px 20px #555;
+    -moz-box-shadow: 0px 0px 20px #aaa; 
+    box-shadow: 0px 0px 20px #555;		
+    cursor:  pointer; 
+}
+
+input.submit{
+ 	width: 150px; 
+	height: 25px;
+    color: #eee; 
+    -transform: uppercase; 
+ 	margin-left:auto;
+	margin-right:auto;
+    background-color: #18a5cc;
+    border: none;
+	-webkit-transition: -webkit-box-shadow 0.3s linear;
+	background: -webkit-gradient(linear, 0% 0%, 0% 40%, from(#45c6e6), to(#095568)); 
+	background: -moz-linear-gradient(0% 40% 90deg,#095568, #45c6e6); 
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px; 
+}
+
+img.imgFun.submit{
+	-webkit-box-shadow: 0px 0px 20px #555;
+    -moz-box-shadow: 0px 0px 20px #aaa; 
+    box-shadow: 0px 0px 20px #555;		
+    cursor:  pointer; 
+}
+
+img.imgFun:hover {
+-moz-transform: scale(0.8) rotate(30deg) translate(0px, 1px) skew(0deg, 0deg);
+-webkit-transform: scale(0.8) rotate(30deg) translate(0px, 1px) skew(0deg, 0deg);
+-o-transform: scale(0.8) rotate(30deg) translate(0px, 1px) skew(0deg, 0deg);
+-ms-transform: scale(0.8) rotate(30deg) translate(0px, 1px) skew(0deg, 0deg);
+transform: scale(0.8) rotate(30deg) translate(0px, 1px) skew(0deg, 0deg);
+-webkit-transition: all 1s ;
+-moz-transition: all 1s ;
+transition: all 1s ;
+}
+
+img.imgFun{
+-moz-transform: scale(1.0) rotate(0deg) translate(0px, 1px) skew(0deg, 0deg);
+-webkit-transform: scale(1.0) rotate(0deg) translate(0px, 1px) skew(0deg, 0deg);
+-o-transform: scale(1.0) rotate(0deg) translate(0px, 1px) skew(0deg, 0deg);
+-ms-transform: scale(1.0) rotate(0deg) translate(0px, 1px) skew(0deg, 0deg);
+transform: scale(1.0) rotate(0deg) translate(0px, 1px) skew(0deg, 0deg);
+-webkit-transition: all 1s ;
+-moz-transition: all 1s ;
+transition: all 1s ;
+}
+
+a.Bottom{
+clear:both;
+text-decoration:none;
+overflow:hidden;
+}
+
+a.nav{
+clear:both;
+text-decoration:none;
+overflow:hidden;
+padding:5px;
+font-family:RalewayThin, Arial, Helvetica, sans-serif;
+color: white;
+font-size:32px;
+text-shadow: 0px -1px 0px #000;
+filter: dropshadow(color=#d6852f, offx=1, offy=1);
+}
+	
+a.nav:hover{
+-webkit-transition: all 2s ;
+-moz-transition: all 2s ;
+transition: all 2s ;
+text--shadow: 5px 5px 5px #18a8a8;
+filter: dropshadow(color=#18a8a8, offx=5, offy=5); 
+color: #37B6CE;
+text-shadow: 0px 3px 0px #000;	
+}
+
+
+#header {
+background-image: url("Images/Header.png");
+background-repeat: no-repeat;
+height:189px;
+width:780px;
+display:block;
+position:fixed;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+@font-face {
+font-family: 'RalewayThin';
+    src: url('Font/raleway_thin-webfont.eot');
+    src: url('Font/raleway_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/raleway_thin-webfont.woff') format('woff'),
+         url('Font/raleway_thin-webfont.ttf') format('truetype'),
+         url('Font/raleway_thin-webfont.svg#RalewayThin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+font-family: 'TeXGyreScholaBold';
+    src: url('Font/texgyreschola-bold-webfont.eot');
+    src: url('Font/texgyreschola-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/texgyreschola-bold-webfont.woff') format('woff'),
+         url('Font/texgyreschola-bold-webfont.ttf') format('truetype'),
+         url('Font/texgyreschola-bold-webfont.svg#TeXGyreScholaBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+font-family: 'TeXGyreScholaBoldItalic';
+    src: url('Font/texgyreschola-bolditalic-webfont.eot');
+    src: url('Font/texgyreschola-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/texgyreschola-bolditalic-webfont.woff') format('woff'),
+         url('Font/texgyreschola-bolditalic-webfont.ttf') format('truetype'),
+         url('Font/texgyreschola-bolditalic-webfont.svg#TeXGyreScholaBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'TeXGyreScholaRegular';
+    src: url('texgyreschola-regular-webfont.eot');
+    src: url('texgyreschola-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('texgyreschola-regular-webfont.woff') format('woff'),
+         url('texgyreschola-regular-webfont.ttf') format('truetype'),
+         url('texgyreschola-regular-webfont.svg#TeXGyreScholaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

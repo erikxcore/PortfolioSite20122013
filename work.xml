@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<portfolio>
+
+<item>
+<title>Fusion Public Site</title>
+<link>img/port/sharepoint/fusionpublic.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/sharepoint/fusionpublic.png</screenshot>
+<description>Description #1</description>
+</item>
+
+<item>
+<title>Simplr App</title>
+<link>img/port/other/simplr.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/other/simplr.png</screenshot>
+<description>Description #1</description>
+</item>
+
+
+<item>
+<title>Fight Stick Design</title>
+<link>img/port/other/GameControllerUsingStockArtDesign1.jpg" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/other/GameControllerUsingStockArtDesign1.jpg</screenshot>
+<description>Description #2</description>
+</item>
+
+
+<item>
+<title>Tom Haas Logo</title>
+<link>img/port/brand/tom.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/brand/tom.png</screenshot>
+<description>Description #3</description>
+</item>
+
+
+<item>
+<title>Wordpress Design</title>
+<link>img/port/cms/wordpress.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/cms/wordpress.png</screenshot>
+<description>Description #4</description>
+</item>
+
+
+<item>
+<title>OpenCart Design</title>
+<link>img/port/cms/cuppycakes.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/cms/cuppycakes.png</screenshot>
+<description>Description #5</description>
+</item>
+
+
+<item>
+<title>Concrete Design</title>
+<link>img/port/cms/concrete.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/cms/concrete.png</screenshot>
+<description>Description #6</description>
+</item>
+
+
+<item>
+<title>District 7 concept</title>
+<link>img/port/other/district7.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/other/district7.png</screenshot>
+<description>Description#7</description>
+</item>
+
+<item>
+<title>Interactive HTML5 concept</title>
+<link>img/port/other/html5video.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/other/html5video.png</screenshot>
+<description>Description#7</description>
+</item>
+
+<item>
+<title>Metro Design Concept</title>
+<link>img/port/other/metro.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/other/metro.png</screenshot>
+<description>Description#7</description>
+</item>
+
+<item>
+<title>Old Boy poster</title>
+<link>img/port/posters/oldboy.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/posters/oldboy.png</screenshot>
+<description>Description#7</description>
+</item>
+
+<item>
+<title>Fusion Infographic</title>
+<link>img/port/posters/fusioninfographic.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/posters/fusioninfographic.png</screenshot>
+<description>Description#7</description>
+</item>
+
+<item>
+<title>Band Presskit</title>
+<link>img/port/print/presskit.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/print/presskit.png</screenshot>
+<description>Description#7</description>
+</item>
+
+<item>
+<title>Band Shirt</title>
+<link>img/port/tmhtb/shirt.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/tmhtb/shirt.png</screenshot>
+<description>Description#7</description>
+</item>
+
+<item>
+<title>Band CD</title>
+<link>img/port/tmhtb/album.jpg" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/tmhtb/album.jpg</screenshot>
+<description>Description#7</description>
+</item>
+
+<item>
+<title>Toy's R Us</title>
+<link>img/port/sharepoint/toys.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/sharepoint/toys.png</screenshot>
+<description>Description#7</description>
+</item>
+
+<item>
+<title>Comporium</title>
+<link>img/port/sharepoint/comporium.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/sharepoint/comporium.png</screenshot>
+<description>Description#7</description>
+</item>
+
+<item>
+<title>Lloyd</title>
+<link>img/port/sharepoint/lloyd.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/sharepoint/lloyd.png</screenshot>
+<description>Description#7</description>
+</item>
+
+<item>
+<title>Macy's</title>
+<link>img/port/sharepoint/macys.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/sharepoint/macys.png</screenshot>
+<description>Description#7</description>
+</item>
+
+<item>
+<title>Fusion Teamsite</title>
+<link>img/port/sharepoint/fusionteam.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/sharepoint/fusionteam.png</screenshot>
+<description>Description#7</description>
+</item>
+
+<item>
+<title>Fusion Portal</title>
+<link>img/port/sharepoint/fusionportal.png" class="lightview" data-lightview-group="rain" data-lightview-group-options="controls: 'relative'</link>
+<screenshot>img/port/sharepoint/fusionportal.png</screenshot>
+<description>Description#7</description>
+</item>
+
+</portfolio>
